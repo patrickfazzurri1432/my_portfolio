@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
     <title>Patrick Fornatto</title>
 
     <link
@@ -38,6 +34,7 @@
       href="./android-chrome-512x512.png"
     />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Web Portfolio for Patrick Fornatto" />
     <meta name="author" content="Patrick Fornatto" />
 
@@ -70,56 +67,94 @@
     />
     <meta property="og:url" content="https://your-domain.com" />
 
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
     <link rel="stylesheet" href="assets/css/main.css" />
-
     <link rel="stylesheet" href="cookie-popup.css" />
   </head>
+
   <body class="is-preload">
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      style="
+        text-align: center;
+        padding: 1em 0;
+        background-color: #ffffff;
+        border-bottom: 1px solid #ccc;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      "
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <a
+          href="#one"
+          style="
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #333;
+          "
+          >Get to Know Me</a
+        >
+        <a
+          href="#two"
+          style="
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #333;
+          "
+          >Recent Projects</a
+        >
+        <a
+          href="#skills"
+          style="
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #333;
+          "
+          >Skills</a
+        >
+        <a
+          href="#three"
+          style="
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #333;
+          "
+          >Leadership and Involvement</a
+        >
+      </div>
+    </nav>
 
-<!-- Navbar -->
-<nav id="navbar" style="
-  text-align: center;
-  padding: 1em 0;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ccc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-">
-  <div style="max-width: 1200px; margin: 0 auto;">
-    <a href="#one" style="margin: 0 20px; text-decoration: none; font-weight: 600; color: #333;">Get to Know Me</a>
-    <a href="#two" style="margin: 0 20px; text-decoration: none; font-weight: 600; color: #333;">Recent Projects</a>
-    <a href="#skills" style="margin: 0 20px; text-decoration: none; font-weight: 600; color: #333;">Skills</a>
-    <a href="#three" style="margin: 0 20px; text-decoration: none; font-weight: 600; color: #333;">Leadership and Involvement</a>
-  </div>
-</nav>
-
-  
-  <!-- Header -->
-<header id="header">
-	<div class="inner">
-	  <a href="#" class="image avatar">
-		<img src="images/wedding.jpeg"
-			 alt="Patrick Fornatto"
-			 style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: uppercenter;" />
-	  </a>
-	  <h1>
-		<strong>Patrick Fornatto's Portfolio</strong>
-	  </h1>
-	  <p style="margin-top: 5px">
-		patrickfornatto@gmail.com &nbsp;|&nbsp; (630) 402-8091
-	  </p>
-	</div>
-  </header>
-  
-  
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="#" class="image avatar">
+          <img
+            src="images/wedding.jpeg"
+            alt="Patrick Fornatto"
+            style="
+              width: 140px;
+              height: 140px;
+              border-radius: 50%;
+              object-fit: cover;
+              object-position: center;
+            "
+          />
+        </a>
+        <h1>
+          <strong>Patrick Fornatto's Portfolio</strong>
+        </h1>
+        <p style="margin-top: 5px">
+          patrickfornatto@gmail.com &nbsp;|&nbsp; (630) 402-8091
+        </p>
+      </div>
+    </header>
 
     <!-- Main -->
     <div id="main">
@@ -141,69 +176,99 @@
           soccer, snowboarding in the Rocky Mountains, or diving into books on
           behavioral psychology.
         </p>
-		<div style="text-align: center;">
-			<img src="images/milan.jpeg" alt="Patrick Fornatto in Milan" style="max-width: 350px; border-radius: 12px; margin-top: 20px;" />
-		  </div>
-		  
+        <div style="text-align: center">
+          <img
+            src="images/milan.jpeg"
+            alt="Patrick Fornatto in Milan"
+            style="max-width: 350px; border-radius: 12px; margin-top: 20px"
+          />
+        </div>
+
         <hr />
+      </section>
 
       <!-- Two -->
       <section id="two">
         <h2>Recent Projects</h2>
         <div class="row">
-			<article class="col-6 col-12-xsmall work-item">
-				<a href="assets/pdf/aarete-final-presentation.pdf" target="_blank">
-				  <img src="images/iowaimage.jpeg" alt="Iowa Cancer Capstone" />
-				</a>
-			  
-				<h3>Iowa Cancer Capstone Project</h3>
-				<p>
-				  A deep-dive data analysis uncovering the behavioral, environmental, and socio-economic drivers of Iowa’s rising cancer rates. This project blends R, Python, and machine learning tools to produce predictive models that inform public health strategy.
-				</p>
-			  </article>
-			  
-			  <article class="col-6 col-12-xsmall work-item">
-				<a href="assets/pdf/on-semi.pdf" target="_blank">
-				  <img src="images/finance.jpg" alt="ON Semiconductor Report" />
-				</a>
-				<h3>ON Semiconductor Equity Analysis</h3>
-				<p>
-				  A comprehensive equity valuation of ON Semiconductor leveraging DCF, EP, and peer comparison models. This project highlights key financial metrics, growth catalysts, and industry risks while offering a target stock price range based on in-depth market analysis.
-				</p>
-			  </article>
-            </div> 
-		</section> 
-		
-		<hr />
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="assets/pdf/aarete-final-presentation.pdf" target="_blank">
+              <img src="images/iowaimage.jpeg" alt="Iowa Cancer Capstone" />
+            </a>
 
-	<!-- Skills Section -->
-<section id="skills">
-	<header class="major">
-	  <h2>Skills</h2>
-	</header>
-	<p><strong>Languages:</strong> Python, SQL, HTML</p>
-	<p><strong>Applications:</strong> Power BI, Tableau, Orange</p>
-	<p><strong>Financial Modeling:</strong> Excel (DCF, EP, Valuation Models)</p>
-	<p><strong>Interpersonal Skills:</strong> Public Speaking, Direct Sales, Time Management, Problem Solving, Team Collaboration</p>
-	<hr />
-  </section>
-  
-	 
-			  
-          <!-- Leadership and Involvement -->
-<section id="three">
-	<header class="major">
-	  <h2>Leadership and Involvement</h2>
-	</header>
-	<p>
-		Throughout my college experience, I’ve remained actively involved in a variety of organizations and events that have shaped both my professional and personal growth. I was a member of Tippie Thrive and held two on-campus jobs simultaneously—one at my business school supporting academic advisors, and another at the Campus Recreation & Wellness Center. I also participated in StoryLab, a public speaking event, and was honored to receive a scholarship from the Vaughan Institute of Risk Management. Above all, what I’m most proud of are the relationships I built through each of these experiences. They reflect my passion for leadership, my drive to connect with others, and my commitment to constant growth. I’m incredibly grateful to the University of Iowa and to everyone who has supported me throughout this journey!
-	</p>
-	<div style="text-align: center; margin-top: 20px;">
-	  <img src="images/storylab.jpg" alt="Patrick speaking at StoryLab" style="max-width: 300px; border-radius: 12px;" />
-	</div>
-  </section>
-  
-      
+            <h3>Iowa Cancer Capstone Project</h3>
+            <p>
+              A deep-dive data analysis uncovering the behavioral,
+              environmental, and socio-economic drivers of Iowa’s rising cancer
+              rates. This project blends R, Python, and machine learning tools
+              to produce predictive models that inform public health strategy.
+            </p>
+          </article>
+
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="assets/pdf/on-semi.pdf" target="_blank">
+              <img src="images/finance.jpg" alt="ON Semiconductor Report" />
+            </a>
+            <h3>ON Semiconductor Equity Analysis</h3>
+            <p>
+              A comprehensive equity valuation of ON Semiconductor leveraging
+              DCF, EP, and peer comparison models. This project highlights key
+              financial metrics, growth catalysts, and industry risks while
+              offering a target stock price range based on in-depth market
+              analysis.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <header class="major">
+          <h2>Skills</h2>
+        </header>
+        <p><strong>Languages:</strong> Python, SQL, HTML</p>
+        <p><strong>Applications:</strong> Power BI, Tableau, Orange</p>
+        <p>
+          <strong>Financial Modeling:</strong> Excel (DCF, EP, Valuation Models)
+        </p>
+        <p>
+          <strong>Interpersonal Skills:</strong> Public Speaking, Direct Sales,
+          Time Management, Problem Solving, Team Collaboration
+        </p>
+        <hr />
+      </section>
+
+      <!-- Leadership and Involvement -->
+      <section id="three">
+        <header class="major">
+          <h2>Leadership and Involvement</h2>
+        </header>
+        <p>
+          Throughout my college experience, I’ve remained actively involved in a
+          variety of organizations and events that have shaped both my
+          professional and personal growth. I was a member of Tippie Thrive and
+          held two on-campus jobs simultaneously—one at my business school
+          supporting academic advisors, and another at the Campus Recreation &
+          Wellness Center. I also participated in StoryLab, a public speaking
+          event, and was honored to receive a scholarship from the Vaughan
+          Institute of Risk Management. Above all, what I’m most proud of are
+          the relationships I built through each of these experiences. They
+          reflect my passion for leadership, my drive to connect with others,
+          and my commitment to constant growth. I’m incredibly grateful to the
+          University of Iowa and to everyone who has supported me throughout
+          this journey!
+        </p>
+        <div style="text-align: center; margin-top: 20px">
+          <img
+            src="images/storylab.jpg"
+            alt="Patrick speaking at StoryLab"
+            style="max-width: 300px; border-radius: 12px"
+          />
+        </div>
+      </section>
+
       <!-- Four -->
       <!--
 					<section id="four">
@@ -523,34 +588,45 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				--></div>
 
     <!-- Footer -->
-<footer id="footer">
-	<div class="inner">
-	  <ul class="icons">
-		<li>
-		  <a href="https://github.com/patrickfazzurri1432" target="_blank" class="icon brands fa-github">
-			<span class="label">GitHub</span>
-		  </a>
-		</li>
-		<li>
-		  <a href="https://www.linkedin.com/in/patrick-fornatto14/" target="_blank" class="icon brands fa-linkedin">
-			<span class="label">LinkedIn</span>
-		  </a>
-		</li>
-		<li>
-		  <a href="assets/pdf/Patrick-Fornatto-Resume.pdf" target="_blank" class="icon solid fa-file">
-			<span class="label">Resume</span>
-		  </a>
-		</li>
-	  </ul>
-	  <ul class="copyright">
-		<li>&copy; Patrick Fornatto 2025</li>
-		<li><a href="privacy-policy.html">Privacy Policy</a></li>
-		<li><a href="terms.html">Terms and Conditions</a></li>
-		
-	  </ul>
-	</div>
-  </footer>
-  
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/patrickfazzurri1432"
+              target="_blank"
+              class="icon brands fa-github"
+            >
+              <span class="label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/patrick-fornatto14/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+            >
+              <span class="label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="assets/pdf/Patrick-Fornatto-Resume.pdf"
+              target="_blank"
+              class="icon solid fa-file"
+            >
+              <span class="label">Resume</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Patrick Fornatto 2025</li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms and Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.poptrox.min.js"></script>
